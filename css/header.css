@@ -1,0 +1,13 @@
+.header {
+  backdrop-filter: blur(10px); /* Superpone el header sobre todo */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.header-content {
+  align-items: center; /* Alineamos en el eje transversal */
+  block-size: 81px;
+  display: flex;
+  justify-content: space-between; /* Alineacion en el eje x */
+}

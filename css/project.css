@@ -1,0 +1,37 @@
+.project {
+  padding-block-start: 40px; /* Padding en version mobil */
+  padding-block-end: 40px;
+  
+}
+
+.project-image img {
+  max-inline-size: 100%; /* Se adaptará al espacio que tenga su contenedor */
+}
+.project-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* interlineado de elementos */
+}
+
+@media screen and (min-width: 768px){
+  .project {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding-block-start: 80px; /* Padding en version desktop */
+    padding-block-end: 80px;
+    
+  }
+  .project-description , .project-image{
+    flex: 1; /* Ocupe el 50% del tamano */
+  }
+  /* nth-child(odd) */
+  /* nth-of-type(odd)  - Tambien puede optarse*/
+  .project:nth-of-type(odd) .project-image { /* Selector de elementos impares */
+   order: 2;
+    /* Alterna el orden visible de las imagenes de los proyectos */
+   text-align: center;
+
+  }
+
+}

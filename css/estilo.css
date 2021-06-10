@@ -1,0 +1,45 @@
+@import "./button.css";
+@import "./button-icon.css";
+@import "./header.css";
+@import "./hero.css";
+@import "./wrapper.css";
+@import "./menu.css";
+@import "./project.css";
+@import "./social.css";
+@import "./footer.css";
+@import "./form.css";
+@import "./title.css";
+@import "./message.css";
+@import "./testimony.css";
+
+
+:root{
+  /* Documentamos la tipografía */
+  --fontBase: 'Poppins', sans-serif; /* Fuente base que se copia de la url  https://fonts.google.com/ */
+  --fontMessageTestimony: 'Oxygen', sans-serif;
+  --headLine1: bold 95px/153.71px var(--fontBase); /* px= Size/Line height ----> Design System Figma */
+  --headLine2: bold 59px/95.46px var(--fontBase);
+  --headLine3: bold 48px/77.66px var(--fontBase);
+  --headLine4: bold 34px/55px var(--fontBase);
+  --headLine5: bold 24px/38.83px var(--fontBase);
+  --body1: normal 16px/25.89px var(--fontBase);
+  --body2: normal 14px/22.65px var(--fontBase);
+  --button: bold 14px/22.65px var(--fontBase);
+  --caption: normal 12px/19.42px var(--fontBase);
+  --message: 300 34px/55.01px var(--fontMessageTestimony);
+  --testimony: bold 16px/25.89px var(--fontMessageTestimony);  
+  /* Documentamos los Colores desde Design System Figma*/
+  --purple: #310A90;
+  --green: #42E2B8;
+  --white: #FFFFFF;
+  /* Variable para el fondo */
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+}
+
+body{
+  background: var(--gradient); /* invoca a la variable definida en root */
+  min-block-size: 100vh; /* Que ocupe el total de la pantalla */
+  font: var(--body1); /* Fuente más utilizada en el proyecto */
+  color: var(--purple);
+  margin: 0;
+}
