@@ -1,13 +1,12 @@
 .header {
-  backdrop-filter: blur(10px); /* Superpone el header sobre todo */
   position: sticky;
   top: 0;
+  backdrop-filter: blur(.625rem);
   z-index: 1;
 }
-
-.header-content {
-  align-items: center; /* Alineamos en el eje transversal */
-  block-size: 81px;
+.header-content{
   display: flex;
-  justify-content: space-between; /* Alineacion en el eje x */
+  justify-content: space-between;
+  align-items: center;
+  block-size: 5rem;
 }

@@ -1,44 +1,52 @@
-.testimony {
-  border-radius: 24px;
-  backdrop-filter: blur(40px);
-  background: rgba(255, 255, 255, 0.2);
+.testimony{
+  max-inline-size: 70.75rem;
+  padding-inline-start: 1.5rem ;
+  padding-inline-end: 1.5rem ;
+  padding-block-start: 1.5rem;
+  padding-block-end: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  padding-inline: 40px;
-  padding-block: 40px;
-  margin-block-start: 40px;
-  margin-block-end: 80px;
-  text-align: left;
+  gap: 1.5rem;
+
+  border: .25rem solid rgba(255,255,255,.2);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(2.5rem);
+  border-radius: 1.5rem;
+  margin-block-start: 2.5rem;
+  margin-block-end: 2.5rem;
 }
 
 .testimony img{
+  border-radius: 50%;
   align-self: center;
 }
 
-.testimony p {
-  font: var(--testimony);
-  color: var(--purple);
-  margin: 0;
+.testimony p{
+  font-weight: 700;
 }
 
 .testimony p:last-child{
-  font: var(--caption);
-  opacity: 0.5;
-  text-transform: uppercase;
+  font-weight: 400;
 }
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width:768px) {
   .testimony {
-    padding-block: 80px;
-    padding-inline: 80px;
+    padding-inline-start:5rem ;
+    padding-inline-end:5rem ;
+    padding-block-start:5rem;
+    padding-block-end:5rem;
+    margin-block-start: 5rem;
+    margin-block-end: 5rem;
+    justify-content: center;
     text-align: center;
   }
-  .testimony p {
-    font: var(--message);
-    font-weight: bold;
+
+  .testimony p{
+    font:var(--testimony);
   }
-  .testimony p:last-child {
-    font: var(--headLine5);
+
+  .testimony p:last-child{
+    font: var(--headline5);
   }
 }

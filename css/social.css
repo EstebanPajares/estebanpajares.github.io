@@ -1,5 +1,5 @@
-.social {
-  padding-block-end: 24px;
+.social{
+  padding-block-end: 1.5rem;
   display: flex;
-  gap: 16px;
+  gap: 1rem;
 }

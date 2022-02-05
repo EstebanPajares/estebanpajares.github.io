@@ -1,27 +1,27 @@
-.menu {
+.menu{
   display: none;
 }
 
-.menu ul {
+.menu ul{
   display: flex;
   list-style: none;
-  gap: 40px; /* espaciado */
+  gap: 2.5rem;
+
 }
 
-.menu ul a {
+.menu ul a{
+  font: var(--button);
   text-decoration: none;
   color: var(--white);
-  font: var(--button);
   text-transform: uppercase;
 }
 
-.menu ul a.is-active {
+.menu ul a.is-active{
   color: var(--purple);
 }
 
 @media screen and (min-width: 768px){
-  .menu {
+  .menu{
     display: block;
   }
-  
 }

@@ -1,23 +1,28 @@
-.message {
+.message{
+  max-inline-size: 56.25rem;
+  padding-inline-start: 1rem;
+  padding-block-end: 1rem;
+  padding-block-start: 2.5rem;
+  padding-block-end: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
   text-align: center;
-  padding-block: 40px;
-  padding-inline: 16px;
 }
 
-.message p {
-  font: var(--headLine5)
+.message p{
+  font: var(--headline5);
 }
 
-.message p:first-child {
-  font-weight: 400px;
+.message p:first-child{
+  font-weight: 25;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
   .message {
-    padding-block: 200px;
-    padding-inline: 153px;
-  }
-  .message p:first-child {
-    font: var(--message)
+    padding-inline-start: 14.56rem;
+    padding-inline-end: 14.56rem;
+    padding-block-start: 5rem ;
+    padding-block-end: 5rem ;
   }
 }

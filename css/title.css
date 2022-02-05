@@ -1,13 +1,13 @@
-.title {
-  align-self: flex-start; /* que no se expanda en mobil first */
+.title{
   background: var(--purple);
+  align-self: flex-start;
+  font: var(--headline5);
   color: var(--white);
-  font: var(--headLine5);
-  padding-block-start: 4px; /* Margen interno arriba */
-  padding-block-end: 4px;
-  padding-inline-start: 8px;
-  padding-inline-end: 8px;
+  padding-inline-start: .5rem;
+  padding-inline-end: .5rem;
+  padding-block-start: .25rem;
+  padding-block-end: .25rem;
   text-decoration: none;
-  margin-inline-start: 4px; /* Para que la sombra no se salga de la caja */
-  box-shadow: -4px 4px 0 var(--white); /* sombra x,y, blur  */
+  box-shadow: inset .25rem -.25rem 0 var(--white);
+  margin-block-start: 2.75rem;
 }

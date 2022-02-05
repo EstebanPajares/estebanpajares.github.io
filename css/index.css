@@ -1,0 +1,55 @@
+@import './button.css';
+@import './button-icon.css';
+@import './header.css';
+@import './hero.css';
+@import './wrapper.css';
+@import './menu.css';
+@import './message.css';
+@import './testimony.css';
+@import './project.css';
+@import './title.css';
+@import './social.css';
+@import './footer.css';
+@import './form.css';
+
+:root{
+  font-size: 16px;
+  /* documentando la tipografía */
+  --fontBase: 'Poppins', sans-serif;
+  --fontMessage: 'Oxygen', sans-serif;
+  --headline1: bold 5.93rem/9.60rem var(--fontBase);
+  --headline2: bold 3.68rem/5.93rem var(--fontBase);
+  --headline3: bold 3rem/4.81rem var(--fontBase);
+  --headline4: bold 2.12rem/3.43rem var(--fontBase);
+  --headline5: bold 1.5rem/2.40rem var(--fontBase);
+  --body1: normal 1rem/1.5rem var(--fontBase);
+  --body2: normal .87rem/1.41rem var(--fontBase);
+  --button: bold .87rem/1.41rem var(--fontBase);
+  --caption: normal .75rem/1.21rem var(--fontBase);
+  --message: 300 2.12rem/3.43rem var(--fontMessage);
+  --testimony: bold 2.12rem/3.43rem var(--fontMessage);
+
+  --gradient: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747DE9 0%, rgba(255, 255, 255, 0) 100%), linear-gradient(135deg, #72EDF2 0%, #5151E5 100%);
+  /* Documentando los colores */
+  --purple: #310A90;
+  --green:  #42E2B8;
+  --white: #FFFFFF;
+}
+
+body{
+  background: var(--gradient);
+  min-block-size: 100vh;
+  font: var(--body1);
+  color: var(--purple);
+  margin: 0;
+}
+
+
+
+body{
+  background: var(--gradient);
+  min-block-size: 100vh; /* Que ocupe el total de la pantalla */
+  font: var(--body1);
+  color: var(--purple);
+  margin: 0;
+}

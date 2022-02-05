@@ -1,20 +1,21 @@
 .button {
-  background: var(--purple); /* Botón base */
+  background: var(--purple);
   color: var(--white);
-  font: var(--button);
-  padding-inline-start: 24px;
-  padding-inline-end: 24px;
-  padding-block-start: 13px; /* Padding Superior */
-  padding-block-end: 13px; /* Padding inferior */
-  border-radius: 4px;
+  padding-inline-start: 1.5rem;
+  padding-inline-end: 1.5rem;
+  padding-block-start: .81rem;
+  padding-block-end: .81rem;
   text-transform: uppercase;
-  border:none;
+  border-radius: .25rem ;
+  border: none;
+  font: var(--button);
   text-decoration: none;
   text-align: center;
 }
 
 .button.is-secondary {
-  background: unset; /* que no tenga nada */
-  color: var(--purple);
+  background: unset;
   border: 2px solid var(--purple);
+  font: var(--button);
+  color: var(--purple);
 }

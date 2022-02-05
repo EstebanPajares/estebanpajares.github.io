@@ -1,8 +1,8 @@
 .button-icon {
-  padding: 10px;
-  border-radius: 4px; 
-  background: var(--white);
+  padding: .625rem;
+  border-radius: .25rem;
   border: 2px solid var(--purple);
+  background: var(--white);
   text-decoration: none;
   display: inline-block;
 }
