@@ -25,7 +25,7 @@ Esta es mi sitio web, donde encontrarás toda la información relacionada con mi
 ### Contact
 
 - Twitter [Esteban_Pajares](https://twitter.com/Esteban_Pajares)
-- Website [Portafolio-Esteban.github.io](https://github.com/EstebanPajares/Portafolio-Esteban.github.io)
+- Website [Portafolio-Esteban.github.io](https://estebanpajares.github.io/Portafolio-Esteban.github.io/)
 
 ### Licence
 
