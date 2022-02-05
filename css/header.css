@@ -10,3 +10,7 @@
   align-items: center;
   block-size: 5rem;
 }
+
+.logo:hover{
+  transform: scale(.95);
+}

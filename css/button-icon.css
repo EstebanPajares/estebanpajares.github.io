@@ -10,3 +10,7 @@
 .button-icon img{
   vertical-align: middle;
 }
+
+.button-icon:hover{
+  transform: scale(.95);
+}
