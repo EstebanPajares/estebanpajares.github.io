@@ -36,6 +36,10 @@
   --white: #FFFFFF;
 }
 
+html{
+  scroll-behavior: smooth; /* transición suave al navegar */
+}
+
 body{
   background: var(--gradient);
   min-block-size: 100vh;
