@@ -1,5 +1,5 @@
 # Portaolio-Esteban
-Esta es mi sitio web, donde encontrarás toda la información relacionada con mi perfil y los proyectos trabajados en la industria IT. Proyecto implementado desde un diseño en Figma.
+Estae es mi portafolio, donde encontrarás toda la información relacionada con mi perfil y los proyectos trabajados en la industria IT. Proyecto implementado desde un diseño en Figma.
 
 ## Desktop
 
